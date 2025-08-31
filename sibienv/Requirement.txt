@@ -1,0 +1,23 @@
+# Base packages
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python
+PyYAML
+tqdm
+scipy
+
+# PyTorch (change version depending on CUDA or CPU)
+torch
+torchvision
+
+# YOLO
+ultralytics   # (for YOLOv8)
+# git+https://github.com/ultralytics/yolov5.git   # (for YOLOv5)
+
+# Utils
+Pillow
+requests
+psutil
+thop
