@@ -1,0 +1,24 @@
+Folder Explanation for D'SIBI Camera
+
+1. records/
+- Purpose: Stores automatic video recordings during real-time detection.
+- Contents: .mp4 video files with names like:
+  record_sibi1.mp4
+  record_sibi2.mp4
+  ...
+- Notes:
+  * Recording starts automatically when the camera is activated.
+  * Recording stops when the user presses the Q key (exit).
+  * Each frame contains bounding boxes, gesture labels, confidence scores, and FPS.
+  * Used for documentation and performance evaluation of the detection system.
+
+2. captures/
+- Purpose: Stores manually captured detection images (snapshots).
+- Contents: .png image files named as:
+  <label>_<confidence_score>.png
+  Example:
+    L_0.94.png → gesture "L" detected with 94% confidence
+    A_0.88.png → gesture "A" detected with 88% confidence
+- Notes:
+  * Snapshot is saved when the user presses the S key.
+  * Used for manual archiving of important detections.
