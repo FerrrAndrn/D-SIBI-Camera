@@ -39,6 +39,7 @@ D'SIBI Camera is a real-time detection system for SIBI (Indonesian Sign Language
 ```bash
 # Install dependencies
 pip install -r sibienv/requirements.txt
+```
 o Use S to save snapshots, Q to exit.
 
 📝 Notes
